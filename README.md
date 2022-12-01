@@ -1,7 +1,7 @@
 # The-Maze
 ## (In progress)
 
-### 3D Raycasted world demo using C and SDL2 graphics library
+### 3D Raycasted world demo purely using C and the SDL2 graphics library
 
 How to run on linux: launch the raycastedbase file in the bin folder from the terminal
 
