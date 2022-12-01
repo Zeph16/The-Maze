@@ -3,6 +3,7 @@
 
 ### 3D Raycasted world demo purely using C and the SDL2 graphics library
 
-How to run on linux: launch the raycastedbase file in the bin folder from the terminal
+Linux executable: bin/raycastedbase
+Windows executable: bin/raycastedbasewin.exe (not guaranteed to function as expected, may experience window irregularities)
 
-Complete compilation instruction along with screenshots and detailed description will be posted when the project is completed
+Complete compilation instruction and detailed description along with screenshots will be posted when the project is completed
