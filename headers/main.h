@@ -1,7 +1,6 @@
 #ifndef MAZE_H
 #define MAZE_H
 
-
 #include <SDL2/SDL_events.h>
 #include <SDL2/SDL_keyboard.h>
 #include <SDL2/SDL_rect.h>
@@ -17,11 +16,11 @@
 
 #define PI 3.142
 
-typedef struct vector {
-    float x;
-    float y;
+typedef struct vector
+{
+	float x;
+	float y;
 } Vector;
-
 
 extern int map[];
 extern bool running;
@@ -38,20 +37,16 @@ extern Vector mapStart;
 extern SDL_Window *window;
 extern SDL_Renderer *renderer;
 
-
-void drawMap();
-void drawPlayer();
-void drawIntersections();
+void drawMap(void);
+void drawPlayer(void);
+void drawIntersections(void);
 void movePlayer(const Uint8 *keyStates);
 bool hitsWall(Vector pt);
 float castRay(Vector rd);
-void initsdl();
-void handleEvents();
-void clearScreen();
-void drawScreen();
-void quitsdl();
-
-
-
+void initsdl(void);
+void handleEvents(void);
+void clearScreen(void);
+void drawScreen(void);
+void quitsdl(void);
 
 #endif
