@@ -37,7 +37,7 @@ void drawMap()
         else
         {
             SDL_SetRenderDrawColor(renderer, 90, 90, 90, 255);
-            
+
             SDL_Rect rect = {currX, currY, boxSize - 1, boxSize - 1};
             SDL_RenderFillRect(renderer, &rect);
         }
@@ -80,7 +80,7 @@ void drawIntersections()
 
 
         SDL_RenderFillRect(renderer, &wall);
-        
+
         SDL_SetRenderDrawColor(renderer, 50, 50, 200, 255);
         SDL_RenderFillRect(renderer, &top);
 
