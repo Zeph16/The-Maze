@@ -1,14 +1,3 @@
-# 3D Raycasted world demo purely using C and the SDL2 graphics library
-## (In progress)
-
-
-
-
-
-
-Complete compilation instruction and detailed description along with screenshots will be posted when the project is completed
-
-
 # Project Overview
 
 This project is an SDL2-based raycaster that shows a basic 3D-like environment similar to the classic "Wolfenstein 3D" style. The core of this project demonstrates fundamental raycasting techniques and showcases player movement in a 2D grid-based environment rendered in 3D perspective. The program utilizes SDL2 for graphics, event handling, and rendering.
@@ -39,7 +28,7 @@ This project is an SDL2-based raycaster that shows a basic 3D-like environment s
    ├── draw.c            # Contains functions to render the map and the player
    ├── events.c          # Handles player movement based on key events
    ├── raycast.c         # Core raycasting logic for 3D rendering
-   ├── sdl_layer.c       # SDL2 abstractions for window creation, event             │                       handling, and rendering
+   ├── sdl_layer.c       # SDL2 abstractions for window creation, event handling, and rendering
    └── main.c            # Entry point, main game loop, and rendering sequence
 
 ```
